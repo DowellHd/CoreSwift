@@ -5,3 +5,5 @@ let yourName = "Horizon"
 
 var names = [name, yourName]
 names.append("Alex")
+
+print(names)
