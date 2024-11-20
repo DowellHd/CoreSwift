@@ -1,5 +1,7 @@
 import Foundation
 
+//Closure: Any function that is inline/that doesn't have the func keyword infront of it
+
        //(lhs: Int, rhs: Int) -> Int in
       //or
 let add: (Int, Int) -> Int = { (lhs, rhs) -> Int in
@@ -22,3 +24,9 @@ print(result)
 /*add(20, 30) {
     $0 + $1
 }*/
+
+func add(num1: Int, num2: Int) -> Int{
+    return num1 + num2
+}
+
+print(add(5,5))
